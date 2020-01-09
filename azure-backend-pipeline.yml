@@ -1,0 +1,42 @@
+# Starter pipeline
+
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- develop
+
+name: $(Date:yyyMMdd)$(Rev:.r)
+
+jobs:
+  - job: 'Build_flask_backend'
+    pool:
+      vmImage: 'windows-latest'
+    steps:
+    
+    - task: UsePythonVersion@0
+      inputs:
+        versionSpec: '3.7'
+    - script: |
+        echo ON 
+        echo Installing pip
+        cd backend        
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+      displayName: 'Install Python dependencies'
+    - task: CopyFiles@2
+      inputs:
+        SourceFolder: backend
+        Contents: '**'
+        TargetFolder: '$(Build.ArtifactStagingDirectory)/backend'
+
+    - task: ArchiveFiles@2
+      inputs:
+        rootFolderOrFile: '$(Build.ArtifactStagingDirectory)/backend'
+        includeRootFolder: true
+        archiveType: 'zip'
+        archiveFile: '$(Build.ArtifactStagingDirectory)/handsetportal-backend.zip'
+        replaceExistingArchive: true   
+      
+    

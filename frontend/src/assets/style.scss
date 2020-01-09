@@ -1,0 +1,18 @@
+// File: custom.scss
+
+// Define your variable overrides here
+
+// redefine colours
+$white: #f4f4f4;
+$aqua: #a0fff5;
+// $font_path: './fonts/';
+
+// Include Bootstrap and BootstrapVue SCSS files
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap-vue/src/index.scss";
+@import "../../node_modules/bootstrap/scss/variables";
+
+// General style overrides and custom classes
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}

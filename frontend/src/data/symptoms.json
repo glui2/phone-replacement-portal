@@ -1,0 +1,59 @@
+{
+"handsetType": {
+    "MITEL3300": [
+        { "value": null, "text": "Select a symptom..."},
+        { "value": "MITEL3300S1", "text": "Crackle/Noise experienced when on a call. Curly Cord Issue"},
+        { "value": "MITEL3300S2", "text": "Faded Keys on the phone keypad"},
+        { "value": "MITEL3300S3", "text": "Hook Flash Issue"},
+        { "value": "MITEL3300S4", "text": "Incoming/outgoing calls come back with busy signal despite no issues with internal calls from one phone to another"},
+        { "value": "MITEL3300S5", "text": "One Way Speech/No Speech both directions, speaker and microphone Issues"},
+        { "value": "MITEL3300S6", "text": "'Option 129 Missing' is displayed on the screen"},
+        { "value": "MITEL3300S7", "text": "(Pixilated Display) Screen Not displaying properly"},
+        { "value": "MITEL3300S8", "text": "Phone does not ring but it flashes indicating an incoming call (Faulty Ringer)"},
+        { "value": "MITEL3300S9", "text": "Phone is completely dead.  No lights at all and nothing is displayed on the screen"},
+        { "value": "MITEL3300S10", "text": "DHCP Discovery is displayed on the screen"},
+        { "value": "MITEL3300S11", "text": "Mitel 3300 System: The 5550 IP console has greyed out icons and cannot be used."}
+    ],
+    "Digital": [
+        {"value": "MXONES4", "text":"Crackle or noise during a call, possible curly cord faults"},
+        {"value": "MXONES5", "text":"Hook Flash issue"},
+        {"value": "MXONES6", "text":"One-way speech or speech related issues due to handpiece, speaker or microphone faults"},
+        {"value": "MXONES8", "text":"Phone doesn't ring but still flashes to indicate incoming call"},
+        {"value": "MXONES9", "text":"Phone is completely dead"},
+        {"value": "MXONES11", "text":"Screen not displaying properly"},
+        {"value": "MXONES12", "text":"Some keys on the phone dial pad are not working"}
+    ],
+    "IP": [
+        {"value": null, "text": "Select a symptom..."},
+        {"value": "MXONES1", "text":"Calls are dropping out, has noise during the call or one-way speech"},
+        {"value": "MXONES3", "text":"Cannot log on to phone"},
+        {"value": "MXONES4", "text":"Crackle or noise during a call, possible curly cord faults"},
+        {"value": "MXONES5", "text":"Hook Flash issue"},
+        {"value": "MXONES6", "text":"One-way speech or speech related issues due to handpiece, speaker or microphone faults"},
+        {"value": "MXONES8", "text":"Phone doesn't ring but still flashes to indicate incoming call"},
+        {"value": "MXONES9", "text":"Phone is completely dead"},
+        {"value": "MXONES11", "text":"Screen not displaying properly"},
+        {"value": "MXONES12", "text":"Some keys on the phone dial pad are not working"}
+    ],
+    "SIP": [
+        {"value": null, "text": "Select a symptom..."},
+        {"value": "MXONES1", "text":"Calls are dropping out, has noise during the call or one-way speech"},
+        {"value": "MXONES3", "text":"Cannot log on to phone"},
+        {"value": "MXONES4", "text":"Crackle or noise during a call, possible curly cord faults"},
+        {"value": "MXONES5", "text":"Hook Flash issue"},
+        {"value": "MXONES6", "text":"One-way speech or speech related issues due to handpiece, speaker or microphone faults"},
+        {"value": "MXONES8", "text":"Phone doesn't ring but still flashes to indicate incoming call"},
+        {"value": "MXONES9", "text":"Phone is completely dead"},
+        {"value": "MXONES11", "text":"Screen not displaying properly"},
+        {"value": "MXONES12", "text":"Some keys on the phone dial pad are not working"}
+    ],
+    "DECT": [
+        {"value": null, "text": "Select a symptom..."},
+        {"value": "MXONES2", "text":"Calls are dropping out or has low signal strength"},
+        {"value": "MXONES8", "text":"Phone doesn't ring but still flashes to indicate incoming call"},
+        {"value": "MXONES10", "text":"Phone is not charging properly"},
+        {"value": "MXONES11", "text":"Screen not displaying properly"},
+        {"value": "MXONES12", "text":"Some keys on the phone dial pad are not working"}
+    ]
+    }
+}

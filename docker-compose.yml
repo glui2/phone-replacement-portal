@@ -1,0 +1,36 @@
+version: "3"
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    volumes:
+      - ./db/:/docker-entrypoint-initdb.d
+    restart: always
+    environment:
+      - SA_PASSWORD=CCSSRElvl11
+      - ACCEPT_EULA=Y
+
+  api:
+    build: ./backend
+    container_name: api
+    restart: always
+    volumes:
+      - ./backend/:/app
+    depends_on:
+      - db
+    expose:
+      - 9000
+
+  ui:
+    build: ./frontend
+    container_name: ui
+    restart: always
+    expose:
+      - 80
+
+  nginx:
+    build: ./nginx
+    container_name: nginx
+    restart: always
+    ports:
+      - "8000:8000"
+      - "8001:80"

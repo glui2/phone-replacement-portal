@@ -1,0 +1,19 @@
+{
+    "handsetType": {
+        "MITEL330053": [
+            { "value": null, "text": "Select from the following..."},
+            { "value": "MITEL330053H1", "text": "How to program Static VLAN on the Mitel 3300 IP Phone ranges 53xx Models?"},
+            { "value": "MITEL330053H2", "text": "How to program Static IP address on the Mitel 3300 IP Phone ranges 53xx Models?"},
+            { "value": "MITEL330053H3", "text": "How to find the firmware revision on the Mitel 3300 IP Phone ranges 53xx Models?"},
+            { "value": "MITEL330053H4", "text": "How to factory reset the parameters on the Mitel 3300 IP Phone ranges 53xx Models?"},
+            { "value": "MITEL330053H5", "text": "How to register or program a replacement handset?"}
+        ],
+        "MITEL330069":[
+            { "value": null, "text": "Select from the following..."},
+            { "value": "MITEL330069H1", "text": "How to program Static VLAN on the Mitel 3300 IP Phone ranges 69xx Models?"},
+            { "value": "MITEL330069H2", "text": "How to program Static IP address on the Mitel 3300 IP Phone ranges 69xx Models?"},
+            { "value": "MITEL330069H3", "text": "How to find the firmware revision on the Mitel 3300 IP Phone ranges 69xx models?"},
+            { "value": "MITEL330069H4", "text": "How to factory reset the parameters on the Mitel 3300 IP Phone ranges 69xx Models?"}
+        ]
+    }
+}

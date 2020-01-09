@@ -1,0 +1,15 @@
+[
+    { "value": null, "text": "Select your handset type"},
+    { "value": "MITEL330052", "text": "Mitel 3300 52xx Series"},
+    { "value": "MITEL330053", "text": "Mitel 3300 53xx Series"},
+    { "value": "MITEL330056", "text": "Mitel 3300 56xx Series"},
+    { "value": "MITEL330069", "text": "Mitel 3300 69xx Series"},
+    { "value": "DECT", "text": "Mitel MD110/MX-ONE TSW/MX-ONE TSE 5613/5614"},
+    { "value": "SIP", "text": "Mitel MD110/MX-ONE TSW/MX-ONE TSE 67XXi Series"},
+    { "value": "SIP", "text": "Mitel MD110/MX-ONE TSW/MX-ONE TSE 68XXim Series"},
+    { "value": "SIP", "text": "Mitel MD110/MX-ONE TSW/MX-ONE TSE 69XXi Series"},
+    { "value": "Digital", "text": "Mitel MD110/MX-ONE TSW/MX-ONE TSE DBC22X Series"},
+    { "value": "IP", "text": "Mitel MD110/MX-ONE TSW/MX-ONE TSE DBC42X Series"},
+    { "value": "DECT", "text": "Mitel MD110/MX-ONE TSW/MX-ONE TSE DT390/690"},
+    { "value": "DECT", "text": "Mitel MD110/MX-ONE TSW/MX-ONE TSE DT4X3 Series"}
+]
